@@ -18,9 +18,7 @@ import androidx.navigation.navArgument
 
 class MainActivity : ComponentActivity() {
 
-    // 테스트 모듈이므로 하드코딩된 목록/타겟 횟수
     private val exercises = listOf("스쿼트", "푸쉬업", "풀업", "숄더 프레스", "레그 레이즈")
-    //private val defaultTargetReps = 10 // 필요하면 여기서 바꾸세요
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

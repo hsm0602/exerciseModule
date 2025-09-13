@@ -36,8 +36,8 @@ import java.util.Locale
 
 @Composable
 fun PoseCameraScreen(
-    exerciseName: String,          // ← 추가
-    onBackToSelection: () -> Unit  // ← 이름 변경: 세트 완료 대신 선택 화면 복귀
+    exerciseName: String,
+    onBackToSelection: () -> Unit
 ) {
     val context = LocalContext.current
     val lifecycleOwner = LocalLifecycleOwner.current
