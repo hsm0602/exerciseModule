@@ -18,7 +18,7 @@ import androidx.navigation.navArgument
 
 class MainActivity : ComponentActivity() {
 
-    private val exercises = listOf("스쿼트", "푸쉬업", "풀업", "숄더 프레스", "레그 레이즈")
+    private val exercises = listOf("Squat", "Push Up", "Pull Up", "Shoulder Press", "Leg Raise", "Dumbbell Deadlift", "CrunchFloor", "Elbow To Knee", "Pike Pushup")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
